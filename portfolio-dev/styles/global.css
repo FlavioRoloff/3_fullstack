@@ -48,9 +48,13 @@ a {
 }
 .container {
   max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  background-color: var(--base-gray-300);
+  
+  align-items: center;
+  margin: auto;
+  max-width: 1040px;
 }
 
-main {
-  height: 100vh;
-  padding: 72px 120px 144px;
-}

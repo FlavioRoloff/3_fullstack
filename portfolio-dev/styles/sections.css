@@ -1,103 +1,59 @@
 #info{
-    background-image: url(/assets/images/Background_Intro.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 120px 160px 183px;
-    
-    #heading{
-      img {
-        max-width: 96px;
-        min-width: 96px;
-        margin: auto;
-      }
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-   
-      
-      #subtitle{
-        color: var(--base-gray-500);
-        font-family: var(--font-family-inconsolata);
-        font-weight: 400; 
-        font-size: 20px;
-        line-height: 120%;
-        
-        display: flex;
-        justify-content: center;
-        margin: 56px 180px 8px;
-
-        span {
-          color: var(--principal-red);
-        }
-      }
+  background-image: url(/assets/images/Background_Intro.png);
   
-      h1 {
-        color: var(--base-gray-600);
-        font-family: var(--font-family-asap);
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 120%;
-
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-      }
-  
-      #text-sm{
-        color: var(--base-gray-400);
-        font-family: var(--font-family-mavenpro);
-        font-size: 14px;
-        line-height: 140%;
-
-        display: flex;
-        justify-content: center;
-        align-self: center;
-
-        max-width: 680px;
-      }
-    }
-    
-
-    #tags{
-      margin-top: 80px;
-      margin-left: 143px;
-      margin-right: 143px;
-
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      grid-column-gap: 16px;
-
-      font-family: var(--font-family-mavenpro);
-      color: var(--base-gray-500);
-      font-size: 16px;
-      line-height: 140%;
-      
-      div {
-        display: flex;
-        padding: 9px 16px;
-        background-color: var(--base-gray-300);
-        border-radius: 20px;
-        max-width: 150px;
-        height: 40px;
-        
-        align-content: center;
-        justify-content: space-evenly;
-        justify-self: ;
-      }
-
-    }
-    #arrow {
-      display: flex;
-      justify-content: center;
-      margin-top: 96px;
-      margin-bottom: 0px;
-    }
+  display: grid;
+  justify-items: center;
 }
 
+#heading{
+  display: flex;
+  flex-direction: column;
 
-#projects {
-  background-color: var(--base-gray-100);
+  #avatar {
+    max-width: 96px;
+    max-height: 96px;
+  }
+
+  align-items: center;
+  justify-content: space-evenly;
+
+  #subtitle {
+    color: var(--base-gray-500);
+    font: var(--inconsolata-subtitle);
+    
+    span {
+      color: var(--principal-red);
+    }
+  }
+
+  h1 {
+    font: var(--heading-1);
+  }
+
+  #text-sm{
+    font: var(--text-sm);
+    color: var(--base-gray-400);
+    margin: 20px 180px 80px;
+  }
+
+  #tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 8px;
+
+    font: var(--text-md);
+    color:var(--base-gray-500);
+
+    div{
+      background-color: var(--base-gray-300);
+      border-radius: 40px;
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      padding: 9px 16px;
+      margin-bottom: 94px;
+    }
+  }
 }
