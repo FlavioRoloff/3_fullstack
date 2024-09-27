@@ -1,6 +1,6 @@
 #info{
   background-image: url(/assets/images/Background_Intro.png);
-  background-size: 1000px 750px;
+  background-size: 1040px 743px;
   background-repeat: no-repeat;
   display: grid;
   justify-items: center;
@@ -100,5 +100,69 @@
     gap: 26px;
 
     margin-bottom: 144px;
+  }
+
+  #services{
+    background-color: var(--base-gray-100);
+    padding: 0px 120px 120px;
+
+    #grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+    }
+  } 
+}
+
+footer {
+
+  background-image: url(/assets/images/Background_Contacts.png);
+  background-size: 1040px 743px;
+  background-repeat: no-repeat;
+  height: 743px;
+  width: 1040px;
+
+  display: grid;
+  justify-items: center;
+
+  p {
+    font: var(--subtitle);
+    color: blueviolet;
+  }
+
+  p:nth-child(3) {
+    color: var(--base-gray-400);
+    font: var(--text-md);
+  }
+
+  h2{
+    font: var(--asap-title-md);
+  }
+
+  header{
+    border: white 2px solid;
+
+    width: 420px;
+    height: 91px;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    margin: 128px auto 48px;
+
+    line-height: 8px;
+
+  }
+
+  #links{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 144px;
+
+    width: 400px;
+    height: 320px;
   }
 }

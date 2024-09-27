@@ -35,3 +35,46 @@
     margin: 0px 20px 25px; 
   }
 }
+
+.card {
+  
+  border: solid 2px var(--base-gray-300);
+  border-radius: 10px;
+  
+  width: 280;
+  height: 155;
+
+  img{
+    margin: 20px auto 0px 20px;
+    height: 40px;
+  }
+  
+
+  h3{
+    font: var(--heading-3);
+    margin: 20px 20px 8px;
+  }
+
+  p{
+    font:var(--text-sm);
+    color: var(--base-gray-400);
+    margin: 0px 20px 25px; 
+  }
+}
+
+.link{
+  background-color: var(--base-gray-300);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-radius: 10px;
+  width: 400px;
+  height: 68px;
+
+  img{
+    margin: 20px 3px 20px 20px;
+    height: 28px;
+  }
+}
