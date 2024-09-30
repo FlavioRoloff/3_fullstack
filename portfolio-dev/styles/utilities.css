@@ -65,16 +65,28 @@
 .link{
   background-color: var(--base-gray-300);
 
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
   align-items: center;
-  justify-content: space-evenly;
+  
 
   border-radius: 10px;
   width: 400px;
   height: 68px;
 
+  a:nth-child(2){
+    margin-left: 0;
+  }
+
+  a:nth-child(3){
+    justify-self: end;
+    margin-right: 20px;
+  }
+
   img{
     margin: 20px 3px 20px 20px;
     height: 28px;
   }
+
+
 }
