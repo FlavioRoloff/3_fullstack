@@ -34,6 +34,12 @@
     color: var(--base-gray-400);
     margin: 0px 20px 25px; 
   }
+
+  div:hover{
+    
+      border:solid 1px white;
+    
+  }
 }
 
 .card {
@@ -62,18 +68,18 @@
   }
 }
 
-.link{
+.social{
   background-color: var(--base-gray-300);
 
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   align-items: center;
   
-
   border-radius: 10px;
   width: 400px;
   height: 68px;
 
+  padding-left: 20px;
   a:nth-child(2){
     margin-left: 0;
   }
@@ -88,5 +94,13 @@
     height: 28px;
   }
 
+}
 
+.social:hover{
+    border: solid 1px #3996DB;
+
+    svg{
+      filter: invert(58%) sepia(17%) saturate(1904%) hue-rotate(165deg) brightness(89%) contrast(93%);
+
+    }
 }
